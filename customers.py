@@ -1,7 +1,7 @@
 # create_customers =  ####################### TO DO ################################
 
 create_customers = """
-CREATE TABLE customers (
+CREATE TABLE if not exists customers (
     id serial primary key,
     first_name varchar,
     last_name varchar,
